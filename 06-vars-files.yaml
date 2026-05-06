@@ -9,8 +9,8 @@
 #       msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Trainer: {{ Trainer }}"
 
 - name: variables from files
-  hosts: local
-  connection: local
+  hosts: localhost
+  connection: localhost
   vars_files:
   - course.yaml
   tasks:
