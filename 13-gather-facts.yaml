@@ -11,6 +11,6 @@
   connection: local
   tasks:
   - name: hosts
-    ansible.buildin.debug:
+    ansible.builtin.debug:
       msg: "{{ ansible_facts }}"
   
