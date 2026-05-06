@@ -12,6 +12,7 @@
 
 - name: play level variables
   hosts: local
+  become: true
   connection: local
   vars:
     COURSE: ansible
